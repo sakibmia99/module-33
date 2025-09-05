@@ -108,28 +108,47 @@
     </section>
 
     <section id="word-container" class="bg-gray-100 p-10 w-11/12 mx-auto my-10 grid grid-cols-1 md:grid-cols-3 gap-5">
-       <div class="text-center col-span-full py-10 space-y-6 font-bagla">
-        
-        <p class="text-lg font-medium text-gray-500">আপনি এখনো কোন Lesson Select করেন নাই</p>
-        <h1 class="text-4xl font-semibold">একটি Lesson Select করুন।</h1>
-       </div>
+        <div class="text-center col-span-full py-10 space-y-6 font-bagla">
+
+            <p class="text-lg font-medium text-gray-500">আপনি এখনো কোন Lesson Select করেন নাই</p>
+            <h1 class="text-4xl font-semibold">একটি Lesson Select করুন।</h1>
+        </div>
     </section>
 
 
     <!-- Open the modal using ID.showModal() method -->
-<!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
-<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-  <div class="modal-box">
-    <h3 class="text-lg font-bold">Hello!</h3>
-    <p class="py-4">Press ESC key or click the button below to close</p>
-    <div class="modal-action">
-      <form method="dialog">
-        <!-- if there is a button in form, it will close the modal -->
-        <button class="btn">Close</button>
-      </form>
-    </div>
-  </div>
-</dialog>
+    <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+            <div id="ditels-container" >
+                <div>
+                    <div>
+                        <h2 class="text-2xl font-bold">egar (bagla)</h2>
+                    </div>
+                    <div>
+                        <h2 class=" font-bold">Meaning</h2>
+                        <p>agroni</p>
+                    </div>
+                    <div>
+                        <h2 class=" font-bold">Example</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Synonym</h2>
+                        <span class="btn">Syn1</span>
+                        <span class="btn">Syn2</span>
+                        <span class="btn">Syn3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-action">
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
 
     <script src="./index.js"></script>
 </body>
